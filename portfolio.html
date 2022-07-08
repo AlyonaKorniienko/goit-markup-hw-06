@@ -254,7 +254,7 @@
               </address>
             </div>
           </div>
-          <div>
+          <div class="social-icon-wrap">
             <h2 class="social-icon-title">присоединяйтесь</h2>
             <ul class="footer-social-icon-set">
               <li class="footer-social-item list">
@@ -286,6 +286,25 @@
                 </a>
               </li>
             </ul>
+          </div>
+          <div class="subscr-wrap">
+            <strong class="subscr-title">Подпишитесь на рассылку</strong>
+            <form class="subscr-form" autocomplete="on" novalidate>
+              <label class="subscr-form-lable" for="user-mail"></label>
+              <input
+                class="subscr-input"
+                type="email"
+                name="user-mail"
+                id="user-mail"
+                placeholder="E-mail"
+              />
+              <button class="subscr-btn button primary hero-btn" type="submit">
+                Подписаться
+                <svg class="subscr-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-send"></use>
+                </svg>
+              </button>
+            </form>
           </div>
         </div>
       </div>
